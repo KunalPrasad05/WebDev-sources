@@ -1,0 +1,319 @@
+.love{
+    color: red;
+
+}
+.newClass {
+    background-color: green;
+}
+
+
+*  {
+    box-sizing: border-box;
+}
+.container {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+   background-color: rgb(17, 17, 21);
+   border-color: black;
+   border: solid 2px;
+   border-radius:4px;
+   padding: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.Cbox {
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width:25%;
+    font-size: 25px;
+    background-color: #1e90ff ;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header {
+    background-color: #0f1111;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 13, 13);
+    color: white;
+    padding: 15px;
+}
+nav a{
+    color: white;
+    margin:0 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.content {
+    background-color:lavender;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    padding: 100px;
+    font-family: verdana;
+    background-image: url("image.jpeg");
+}
+
+.boxes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: beige;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);   
+}
+
+.box1 {
+    background-image: url("kunaal.jpeg");
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin:auto;
+    background-color: purple;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    }
+
+.box1:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.box2 {
+    background-image: url("kunal\(2\).jpeg");
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin:auto;
+    background-color: purple;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    }
+
+.box2:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.box1, .box2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button{
+    background-color: Blue;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    width: 250px;
+    border-radius: 12px;
+    font-family: arial;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.5)
+
+}
+.button:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+button:active{
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+  }
+.footer a{
+      text-decoration: none;
+      color: white;
+}
+/* 
+.cards{
+    display:flex;
+    gap:20px;
+}
+.card {
+    height:250px;
+    width:200px;
+    border-radius:10px;
+    background-color:blue;
+    color:white;
+    font-family:'arial','Times New Roman', Times, serif;
+    padding:10px;
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20 px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3)
+    }
+
+.card:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+.texts{
+   text-align:center;
+   font-size:14px;
+}
+.pic {
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-image:  url("kunaal.jpeg");
+    background-size:cover;
+    background-position: center;
+    border:2px solid white;
+    margin:auto;
+}
+.pic2 {
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-image:  url("kunal(2).jpeg");
+    background-size:cover;
+    background-position: center;
+    border:2px solid white;
+    margin:auto;
+} */
+
+
+/* Day-3 */
+/* header {
+    height:40px;    
+    background-color:black;
+    }
+
+a {
+    color:white;
+    font-size:20px;
+    font-family:arial;
+    margin:80px;
+    text-decoration:none;
+}
+
+.box {
+    height:100px;
+    width:100px;
+    border:2px;
+    background-color:orange;
+    display:inline-block;
+    margin:20px;  
+} */
+
+/* .box{
+    background-color:navy;
+    color:white;
+    height:50px;
+    width:50px;
+    display:inline-block;
+    justify-content:center;
+    align-items:justify;
+} */
+
+/* div{
+    display:inline;
+    width:40px;
+    height:500px;
+    background-color:red;
+
+} */
+
+/* 
+.box{
+    height:50px;
+    width:90px;
+    padding-top:28px;
+    margin-left:15rem;
+    background-color:beige;
+    border:2px solid black;
+    color:black;
+    align-items:justify;
+    display:flex; 
+    justify-content:center;
+    border-radius:5%;
+} */
+
+/* h1 {
+    text-align:center;
+    font-family: arial;
+    text-transform:uppercase;
+}
+p {
+    font-size:18px;
+    font-weight:400;
+    text-decoration:overline;
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    Text-transform: none;
+    line-height:0px;
+}
+
+a {
+    text-align:center;
+    text-decoration:none;
+    color:black;
+} */
+
+/* .button{
+    color:purple;
+    background-color:plum;
+    height:50px;
+    width: 100px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius:10px;
+    padding:10px;
+    cursor:pointer;
+    
+}
+
+.button:hover {
+    border: 2px solid darkslategray;
+} */
+/* .heading {
+    color:red;
+} */
+
+/* .heading {
+    color:red;
+}
+
+#box {
+    background-color: aliceblue;
+    color:black;
+    padding: 1rem;
+}
+
+p{
+    color:pink;
+} */
